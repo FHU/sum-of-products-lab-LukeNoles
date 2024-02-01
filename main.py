@@ -10,4 +10,4 @@ if __name__ == '__main__':
     if len(list1) == len(list2):
         sum_of_products(list1, list2)
     else:
-        print ("Error")
+        print ("error")
