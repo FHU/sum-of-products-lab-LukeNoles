@@ -1,8 +1,13 @@
-#REMOVE PASS AND FIX THE FUNCTION
-#change to test push and forks
+newlist=[]
+list1 = input()
+list2 = input()
 def sum_of_products(list1, list2):
-    pass
+    for i in range(0, len(list1)):
+        newlist.append(int(list1[i]) * int(list2[i]))
+    print (sum(newlist))
 
 if __name__ == '__main__':
-   #REMOVE PASS AND YOUR CODE GOES HERE
-    pass
+    if len(list1) == len(list2):
+        sum_of_products(list1, list2)
+    else:
+        print ("Error")
